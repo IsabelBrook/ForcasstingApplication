@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to bottom right, rgba(213, 183, 39, 0.73), rgba(175, 220, 145, 0.94), #3c9d80);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+table {
+    width: 100%;
+    color : black;
+    text-shadow: 1px 1px 4px white;
+    font-size: xx-large;
+    border: dotted;
+    font-family: "Agency FB" Serif ;
+}
+tr {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4%;
+    padding-top: 1%;
+
+}
+#somethingelse{
+    width:100%;
+}
+#somethingelse table{
+    display:flex;
+    border: dotted;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    font-size: 95%;
+}
+#somethingelse th{
+    width:20%
+
+
+}
+
+#somethingelse img{
+    width: 50%;
+}
+
